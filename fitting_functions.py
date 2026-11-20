@@ -1,3 +1,8 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy
+from scipy.stats import norm
+from fitting_functions import *
 def linear(m, x, b):
     y = m*x+b
     return y
