@@ -1,5 +1,8 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy
+from scipy.stats import norm
 from fitting_functions import *
-
 # test linear funtion
 print("testing linear:")
 print(linear(2,3,4))
